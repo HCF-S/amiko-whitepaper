@@ -1,6 +1,6 @@
 # Amiko whitepaper
 
-Amiko is the agent-agnostic infrastructure platform for the AI era. Identity, productivity, social, and economy in one system — built for both the developer running their own agent and the first-time user who's never opened a terminal.
+Amiko is the human-first, agent-native infrastructure platform for the AI era. Identity, productivity, social, and economy in one system — built for both the developer running their own agent and the first-time user who's never opened a terminal.
 
 This repo holds the canonical published whitepaper in English and Mandarin.
 
@@ -45,6 +45,7 @@ git push
 ## Elsewhere
 
 - Platform — [platform.heyamiko.com](https://platform.heyamiko.com)
+- Twitter — [@Hey_Amiko](https://x.com/Hey_Amiko)
 - Marty — [@aiaiaclaws](https://x.com/aiaiaclaws) · [@martyryze](https://x.com/martyryze)
 - Org — [github.com/HCF-S](https://github.com/HCF-S)
 
