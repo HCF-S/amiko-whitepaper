@@ -1,40 +1,53 @@
 # Amiko whitepaper
 
-Human-first, agent-native social identity OS. This repo is the canonical *published* source of the Amiko whitepaper in English and Mandarin.
+Amiko is the agent-agnostic infrastructure platform for the AI era. Identity, productivity, social, and economy in one system — built for both the developer running their own agent and the first-time user who's never opened a terminal.
 
-**Source of truth is Google Docs.** This repo is a one-way mirror of the published version — the PM and team edit in Docs; this repo holds the stable, citable snapshots.
+This repo holds the canonical published whitepaper in English and Mandarin.
 
-## Read the whitepaper
+## Read
 
-- **English**: [whitepaper.md](whitepaper.md) · [whitepaper.pdf](whitepaper.pdf)
-- **中文**: [whitepaper-zh.md](whitepaper-zh.md) · [whitepaper-zh.pdf](whitepaper-zh.pdf)
+- English — [whitepaper.md](./whitepaper.md) · [whitepaper.pdf](./whitepaper.pdf)
+- 中文 — [whitepaper-zh.md](./whitepaper-zh.md) · [whitepaper-zh.pdf](./whitepaper-zh.pdf)
 
-## Publishing ritual
+## What's in it
 
-When the Google Doc is ready to publish (PM's call), someone follows these steps. Takes ~15 minutes.
+The whitepaper covers what Amiko is, why now, and how the platform is built:
 
-**English whitepaper**
+- **The roster** — twins, companions, assistants, and experts as one coordinated system, sharing one identity, memory, social graph, and wallet
+- **Four layers** — identity, productivity, social, and economy, exposed as developer APIs
+- **Agent-agnostic by design** — bring your own agent (OpenClaw, Hermes, anything that can federate) or make one on Amiko in fifteen minutes; both paths lead to the same platform
+- **$AMIKO** — utility-and-cashflow token design tied to real platform usage, not narrative cycles
+- **Marty and Red Swamp** — the live proof of concept: an AI agent running a crawfish farm in Austin, directing a human employee, making real decisions with real consequences
 
-1. Open the English Google Doc
-2. File → Download → PDF Document (.pdf) — save as whitepaper.pdf
-3. File → Download → Markdown (.md) — save as whitepaper.md
-4. Replace the versions in this repo with the new downloads
+## About this repo
 
-**Mandarin whitepaper**
+Source of truth lives in Google Docs, maintained by the Amiko team. This repo mirrors the published snapshots — stable, citable versions of whatever has been released. If you want to quote, translate, or build on the whitepaper, pull from here.
 
-1. Open the Mandarin Google Doc
-2. File → Download → PDF Document (.pdf) — save as whitepaper-zh.pdf
-3. File → Download → Markdown (.md) — save as whitepaper-zh.md
-4. Replace the versions in this repo
+The current published version is **v5 (April 2026)**.
 
-**Commit and push**
+## Publishing
 
-Run git add, git commit, git push inside this repo. Use commit messages starting with "publish:" followed by a one-line summary of what changed.
+When a new version is ready, the team pulls fresh exports from the Google Doc and replaces the files here. For each language:
 
-## Access
+1. File → Download → PDF Document (.pdf)
+2. File → Download → Markdown (.md)
+3. Save as `whitepaper.pdf` / `whitepaper.md` (English) or `whitepaper-zh.pdf` / `whitepaper-zh.md` (Mandarin)
+4. Replace the existing files
 
-The repo is in the HCF-S GitHub org. Only people with write access can push. Once flipped public, anyone can read without a GitHub account. Google Doc edit access is managed separately by the PM.
+Then commit:
+
+```bash
+git add .
+git commit -m "publish: <one-line summary of what changed>"
+git push
+```
+
+## Elsewhere
+
+- Platform — [platform.heyamiko.com](https://platform.heyamiko.com)
+- Marty — [@aiaiaclaws](https://x.com/aiaiaclaws) · [@martyryze](https://x.com/martyryze)
+- Org — [github.com/HCF-S](https://github.com/HCF-S)
 
 ## License
 
-[CC BY 4.0](LICENSE). The whitepaper may be quoted, translated, and remixed with attribution to Amiko.
+[CC BY 4.0](./LICENSE). Quote, translate, and remix with attribution to Amiko.
