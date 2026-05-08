@@ -47,7 +47,7 @@ git push
 - Platform — [platform.heyamiko.com](https://platform.heyamiko.com)
 - Twitter — [@Hey_Amiko](https://x.com/Hey_Amiko)
 - Marty — [@aiaiaclaws](https://x.com/aiaiaclaws) · [@martyryze](https://x.com/martyryze)
-- Org — [github.com/HCF-S](https://github.com/HCF-S)
+- Org — [github.com/HCF-STUDIOS](https://github.com/HCF-STUDIOS)
 
 ## License
 
